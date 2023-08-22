@@ -1,20 +1,22 @@
 import { useState } from "react"
+
 import data from "../data.json"
-// import $ from "jquery"
+
 import { CgChevronDown } from "react-icons/cg"
-import { 
-  // TiArrowRightOutline, 
+import {
   TiMail, 
   TiSocialLinkedin, 
   TiSocialInstagram, 
   TiSocialTwitter } from "react-icons/ti";
+
 import fathanLogo from "../assets/images/fathan-logo.png"
+
 import AppLogo from "./AppLogo";
 import Contact from "./Contact";
 import LinkProjects from "./LinkProjects";
 
 function About() {
-  const [abouts, setAbouts] = useState(data)
+  const abouts = data
   const [showDetails, setShowDetails] = useState(false)
 
   return (
