@@ -11,7 +11,7 @@ import './App.scss';
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.DEV ? '/' : '/portfolio'}>
       <div className="App">
         <Routes>
           <Route path="/products" element={<Projects />} />
