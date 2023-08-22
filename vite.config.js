@@ -8,7 +8,7 @@ export default defineConfig(({ command }) => {
     plugins: [react()],
   }
 
-  if (command !== 'serve') config.base = '/project'
+  if (command !== 'serve') config.base = '/portfolio'
 
   return config
 })
