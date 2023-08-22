@@ -18,8 +18,8 @@ function Projects() {
     },
     {
       imageUrl: bookshelf,
-      title: "Bookshelf",
-      link: "https://nfathan.github.io/bookshelf/"
+      title: "Rak Buku",
+      link: "https://nfathan.github.io/rakbuku/"
     },
     {
       imageUrl: quotes,
